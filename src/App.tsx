@@ -1,7 +1,13 @@
+import { Global } from "@emotion/react";
+import { Navbar } from "./components";
+import { cssReset } from "./cssReset";
+
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Global styles={cssReset} />
+      <Navbar />
     </>
   );
 }
