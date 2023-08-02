@@ -12,5 +12,8 @@ export const colors = {
 }
 
 export const fontSizes = {
-
+  xsmall: '0.875rem',
+  small: '1.125rem',
+  medium: '1.5rem',
+  large: '2.375rem',
 }
