@@ -1,6 +1,7 @@
 import { Global } from "@emotion/react";
 import { Navbar } from "./components";
 import { cssReset } from "./cssReset";
+import { Home } from "./Pages/Home";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Global styles={cssReset} />
       <Navbar />
+      <Home />
     </>
   );
 }
